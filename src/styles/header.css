@@ -14,13 +14,13 @@
     display: flex;
     gap: 4rem;
     justify-content: space-around;
-    margin-top: 1.5rem;
+    margin-top: 1.6rem;
 }
 
 .navigation-bar {
     border: .1rem solid var(--grey-400);
     border-radius: 2rem;
-    padding: .5rem 1.5rem .5rem;
+    padding: .7rem 1.5rem .5rem;
     width: 60%;
 }
 
