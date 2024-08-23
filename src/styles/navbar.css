@@ -1,5 +1,5 @@
 .nav__wrap {
-    border-bottom: .1rem solid black;
+    border-bottom: .1rem solid #658c4a;
     display: flex;
     font-family: Inter;
     font-size: 1.7rem;
@@ -14,4 +14,8 @@
     flex-direction: row;
     gap: 5rem;
     list-style: none;
+}
+
+.nav__wrap-ul li {
+    color: #333;
 }

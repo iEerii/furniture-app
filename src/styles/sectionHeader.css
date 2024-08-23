@@ -1,0 +1,40 @@
+.section__header {
+    display: flex;
+}
+
+.section__header-description {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.section__header-description h1 {
+    color: #333;
+    font-family: 'Libre Baskerville';
+    font-size: 5rem;
+    padding: 6.5rem 9rem 1rem;
+    text-align: center;
+}
+
+.section__header-description p {
+    color: #666;
+    font-family: 'Inter';
+    font-size: 2rem;
+    padding: 2rem 3rem;
+    text-align: center;
+}
+
+.section__header-description button {
+    background-color: #658c4a;
+    color: #fff;
+    border: .1rem solid #658c4a;
+    border-radius: 3rem;
+    font-family: 'Inter';
+    font-size: 2rem;
+    padding: 1rem 2rem;
+}
+
+.section__header-portrait img {
+    max-width: 65rem;
+}
