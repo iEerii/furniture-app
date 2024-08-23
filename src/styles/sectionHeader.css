@@ -28,11 +28,17 @@
 .section__header-description button {
     background-color: #658c4a;
     color: #fff;
+    cursor: pointer;
     border: .1rem solid #658c4a;
     border-radius: 3rem;
     font-family: 'Inter';
     font-size: 2rem;
     padding: 1rem 2rem;
+}
+
+.section__header-description button:hover {
+    border: .1rem solid #90cc65;
+    background-color: #90cc65;
 }
 
 .section__header-portrait img {
