@@ -12,7 +12,7 @@
 .section__header-description h1 {
     color: #333;
     font-family: 'Libre Baskerville';
-    font-size: 5rem;
+    font-size: 5.5rem;
     padding: 6.5rem 9rem 1rem;
     text-align: center;
 }
@@ -21,7 +21,8 @@
     color: #666;
     font-family: 'Inter';
     font-size: 2rem;
-    padding: 2rem 3rem;
+    line-height: 3rem;
+    padding: 2rem 5rem 2rem;
     text-align: center;
 }
 
