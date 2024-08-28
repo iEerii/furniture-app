@@ -1,0 +1,29 @@
+.card__product {
+    max-width: 35rem;
+}
+
+.card__product-img {
+    width: 100%;
+}
+
+.card__product-title {
+    color: #fff;
+    font-family: 'Inter';
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2.8rem;
+    padding-bottom: 1rem;
+}   
+
+.card__product-oldPrice,
+.card__product-newPrice {
+    color: #fff;
+    font-family: 'Inter';
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 2.5rem;
+}
+
+.card__product-oldPrice {
+    text-decoration: line-through;
+}
