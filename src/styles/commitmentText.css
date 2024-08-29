@@ -1,0 +1,13 @@
+.text__container {
+    background-image: url(./../assets/pexelstimdouglas6567651-1@2x.png);
+    background-size: cover;
+    padding: 12rem 6rem 11rem;
+    width: 100%;
+}
+
+.text__container-text {
+    color: #fff;
+    font-family: 'Libre Baskerville';
+    font-size: 3.2rem;
+    text-align: center;
+}
