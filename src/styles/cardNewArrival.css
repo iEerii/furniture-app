@@ -1,0 +1,8 @@
+.newProduct__wrap {
+    max-width: 40rem;
+}
+
+.newProduct__wrap-img {
+    object-fit: cover;
+    width: 100%;
+}
