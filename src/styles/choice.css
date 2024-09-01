@@ -1,0 +1,22 @@
+.choice__container {
+    padding: 12rem 6rem;
+}
+
+.choice__container-title {
+    color: #658c4a;
+    font-family: 'Libre Baskerville';
+    font-size: 5rem;
+    padding-bottom: 4rem;
+    text-align: center;
+}
+
+.choice__container-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+p {
+    font-family: 'Inter';
+    font-size: 2rem;
+}
