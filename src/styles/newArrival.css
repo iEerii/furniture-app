@@ -1,0 +1,35 @@
+.newArrival__wrap {
+    padding: 7.8rem 5.5rem;
+}
+
+.newArrival__wrap-title {
+    color: #333;
+    font-family: 'Libre Baskerville';
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 2.8rem;
+    padding-bottom: 1.5rem;
+}
+
+.newArrival__wrap-p {
+    color: #666;
+    font-family: 'Inter';
+    font-size: 1.6rem;
+    line-height: 24px;
+}
+
+.newArrival__wrap-list {
+    display: flex;
+    list-style: none;
+}
+
+.buttonNext,
+.buttonPrev,
+.img__button {
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 4rem;
+    width: 4rem;
+}
+

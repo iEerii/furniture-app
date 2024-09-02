@@ -1,0 +1,31 @@
+.choice__container {
+    padding: 12rem 6rem;
+}
+
+.choice__container-title {
+    color: #658c4a;
+    font-family: 'Libre Baskerville';
+    font-size: 5rem;
+    padding-bottom: 4rem;
+    text-align: center;
+}
+
+.choice__container-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+p {
+    font-family: 'Inter';
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 78rem) {
+    .choice__container-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 18px;
+    }
+}

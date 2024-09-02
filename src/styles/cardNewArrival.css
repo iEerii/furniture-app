@@ -1,0 +1,23 @@
+.newProduct__wrap {
+    font-family: 'Inter';
+    max-width: 40rem;
+    text-align: center;
+}
+
+.newProduct__wrap-img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.newProduct__wrap-title {
+    color: #333;
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+.newProduct__wrap-price {
+    color: #658c4a;
+    font-size: 1.6rem;
+    padding-top: 1.5rem;
+    font-weight: 600;
+}
