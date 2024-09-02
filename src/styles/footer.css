@@ -1,0 +1,90 @@
+.footer__container {
+    background-color: #f5f5f5;
+    font-family: 'Inter';
+    padding-top: 30rem;
+    position: relative;
+}
+
+.bgFoot {
+    bottom: 0;
+    height: 50rem;
+    left: 7rem;
+    max-width: 140rem;
+    top: 18rem;
+    position: absolute;
+    width: 100%;
+}
+
+.footer__button {
+    background-color: #658c4a;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 4px 4px rgba(255, 255, 255, 0.15) inset, 0 -4px 4px rgba(0, 0, 0, 0.15) inset;
+    cursor: pointer;
+    height: 13rem;
+    left: 67rem;
+    position: absolute;
+    top: 13rem;
+    width: 13rem;
+}
+
+.footer__container-lists {
+    border-bottom: .2rem solid #000;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 3rem;
+}
+
+.footer__container-title {
+    color: #658c4a;
+    font-size: 2rem;
+    line-height: 3rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+
+.footer__list {
+    list-style: none;
+}
+
+.footer__list li{
+    color: #333;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 3rem;
+}
+
+.footer__container-rights {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 7rem;
+}
+
+.footer__container-media {
+    display: flex;
+    gap: 2rem;
+}
+
+.button__media {
+    background-color: #000;
+    border: none;
+    border-radius: 50%;
+}
+
+.img__media {
+    object-fit: fill;
+    height: 4rem;
+    width: 4rem;
+}
+
+@media screen and (max-width: 78rem) {
+    .bgFoot {
+        left: 4.3rem;
+        width: 90%;
+    }
+    
+    .footer__button {
+        left: 40rem;
+    }
+}
