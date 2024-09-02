@@ -37,10 +37,10 @@ export const NewArrival = () => {
             <p className='newArrival__wrap-p'>Sé el primero en tener el producto de primera clase</p>
             <div style={{ textAlign: "right" }}>
                 <button className="buttonPrev" onClick={previous}>
-                    <img src={ Previous } alt="" />
+                    <img className="img__button" src={ Previous } alt="" />
                 </button>
                 <button className="buttonNext" onClick={next}>
-                    <img src={ Next } alt="" />
+                    <img className="img__button" src={ Next } alt="" />
                 </button>
             </div>
             <Slider 

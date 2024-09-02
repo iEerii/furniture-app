@@ -26,3 +26,11 @@
     gap: 2rem;
     list-style: none;
 }
+
+@media screen and (max-width: 78rem) {
+    .demand__container-products {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+}

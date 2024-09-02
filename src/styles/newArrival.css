@@ -22,3 +22,14 @@
     display: flex;
     list-style: none;
 }
+
+.buttonNext,
+.buttonPrev,
+.img__button {
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 4rem;
+    width: 4rem;
+}
+

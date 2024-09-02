@@ -6,8 +6,10 @@ import { NewArrival } from './components/NewArrival';
 import { CommitmentText } from './components/CommitmentText';
 import { Choice } from './components/Choice';
 import { SectionSubscribe } from './components/SectionSubscribe';
+import { Footer } from './components/Footer';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+
 
 function App() {
 
@@ -20,6 +22,7 @@ function App() {
 			<CommitmentText />
 			<Choice />
 			<SectionSubscribe />
+			<Footer />
 		</main>
 	)
 }

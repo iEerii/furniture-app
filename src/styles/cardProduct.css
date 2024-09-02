@@ -27,3 +27,9 @@
 .card__product-oldPrice {
     text-decoration: line-through;
 }
+
+@media screen and (max-width: 78rem) {
+    .card__product {
+        text-align: center;
+    }
+}
